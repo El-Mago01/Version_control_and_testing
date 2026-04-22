@@ -7,5 +7,8 @@ def test_round6_rounds_up():
 def test_round6_rounds_down():
     assert round6(8.5) == 8
 
+def test_round6_rounds_left():
+    assert round6(7.5) == 6
+
 pytest.main()
 
