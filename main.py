@@ -2,7 +2,9 @@ def round6(num):
     """This function has a bug in it"""
     return int(num + .6)
 
-# this is very interesting
+
+
+
 def upper_lower(text):
     """
     Checks if a given string contains an occurrence
